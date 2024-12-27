@@ -1,12 +1,14 @@
 package gestion_compte;
 
 public class role {
-    String admin,employe,client;
+    String role;
 
 
-    public role(String admin, String employe, String client) {
-        this.admin = admin;
-        this.employe = employe;
-        this.client = client;
+    public role(String role) {
+        this.role = role;
+    }
+
+    public role() {
+
     }
 }
